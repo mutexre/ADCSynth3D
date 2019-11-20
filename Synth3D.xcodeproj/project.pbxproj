@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CE72E4D89FA227CC196A679 /* Pods_Synth3D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79012CEA62DAF4D2537C3654 /* Pods_Synth3D.framework */; };
+		92250782237EFBE600E77565 /* out.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92250781237EFBE600E77565 /* out.wav */; };
+		923B9F382345091A0088B677 /* File.metal in Sources */ = {isa = PBXBuildFile; fileRef = 923B9F372345091A0088B677 /* File.metal */; };
+		92E1A4B4236F48EB00582C2B /* Items.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DA5C63236DCF1300F6F1E6 /* Items.scnassets */; };
+		92E4BD2D233FAD6F00AF6ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4BD2C233FAD6F00AF6ADB /* AppDelegate.swift */; };
+		92E4BD2F233FAD6F00AF6ADB /* ViewController3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E4BD2E233FAD6F00AF6ADB /* ViewController3D.swift */; };
+		92E4BD32233FAD6F00AF6ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E4BD30233FAD6F00AF6ADB /* Main.storyboard */; };
+		92E4BD34233FAD7100AF6ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E4BD33233FAD7100AF6ADB /* Assets.xcassets */; };
+		92E4BD37233FAD7100AF6ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E4BD35233FAD7100AF6ADB /* LaunchScreen.storyboard */; };
+		92F079FE237A6AB400897B4D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F079FD237A6AB400897B4D /* ViewModel.swift */; };
+		92F07A00237A8A9100897B4D /* SynthEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F079FF237A8A9100897B4D /* SynthEngine.swift */; };
+		92F07A02237A9E6000897B4D /* SynthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F07A01237A9E6000897B4D /* SynthModel.swift */; };
+		92F07A04237AA00900897B4D /* ViewController2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F07A03237AA00900897B4D /* ViewController2D.swift */; };
+		92F07A06237ABD5500897B4D /* ds-digii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F07A05237ABD5500897B4D /* ds-digii.ttf */; };
+		92F07A09237ABEC700897B4D /* Technology.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92F07A08237ABEC700897B4D /* Technology.ttf */; };
+		92F07A20237E4A1200897B4D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F07A1F237E4A1200897B4D /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26749C9C972583422E510AFF /* Pods-Synth3D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synth3D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Synth3D/Pods-Synth3D.debug.xcconfig"; sourceTree = "<group>"; };
+		79012CEA62DAF4D2537C3654 /* Pods_Synth3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Synth3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92250781237EFBE600E77565 /* out.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = out.wav; sourceTree = "<group>"; };
+		923B9F372345091A0088B677 /* File.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = File.metal; sourceTree = "<group>"; };
+		92DA5C63236DCF1300F6F1E6 /* Items.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Items.scnassets; sourceTree = "<group>"; };
+		92E4BD29233FAD6F00AF6ADB /* Synth3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Synth3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E4BD2C233FAD6F00AF6ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92E4BD2E233FAD6F00AF6ADB /* ViewController3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3D.swift; sourceTree = "<group>"; };
+		92E4BD31233FAD6F00AF6ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92E4BD33233FAD7100AF6ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92E4BD36233FAD7100AF6ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92E4BD38233FAD7100AF6ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F079FD237A6AB400897B4D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		92F079FF237A8A9100897B4D /* SynthEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthEngine.swift; sourceTree = "<group>"; };
+		92F07A01237A9E6000897B4D /* SynthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthModel.swift; sourceTree = "<group>"; };
+		92F07A03237AA00900897B4D /* ViewController2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2D.swift; sourceTree = "<group>"; };
+		92F07A05237ABD5500897B4D /* ds-digii.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ds-digii.ttf"; sourceTree = "<group>"; };
+		92F07A08237ABEC700897B4D /* Technology.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Technology.ttf; sourceTree = "<group>"; };
+		92F07A1F237E4A1200897B4D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5238C5DD9C0182E45D12DDD /* Pods-Synth3D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synth3D.release.xcconfig"; path = "Pods/Target Support Files/Pods-Synth3D/Pods-Synth3D.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92E4BD26233FAD6F00AF6ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE72E4D89FA227CC196A679 /* Pods_Synth3D.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FD7CA4EA1FEAE40F7585A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79012CEA62DAF4D2537C3654 /* Pods_Synth3D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92E4BD20233FAD6F00AF6ADB = {
+			isa = PBXGroup;
+			children = (
+				92E4BD2B233FAD6F00AF6ADB /* Synth3D */,
+				92E4BD2A233FAD6F00AF6ADB /* Products */,
+				935F7D5E546EC5EE006A1D0B /* Pods */,
+				53FD7CA4EA1FEAE40F7585A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92E4BD2A233FAD6F00AF6ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92E4BD29233FAD6F00AF6ADB /* Synth3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92E4BD2B233FAD6F00AF6ADB /* Synth3D */ = {
+			isa = PBXGroup;
+			children = (
+				92F07A07237ABEB500897B4D /* Fonts */,
+				92E4BD2C233FAD6F00AF6ADB /* AppDelegate.swift */,
+				92F07A01237A9E6000897B4D /* SynthModel.swift */,
+				92F079FD237A6AB400897B4D /* ViewModel.swift */,
+				92F07A1F237E4A1200897B4D /* MainViewController.swift */,
+				92E4BD2E233FAD6F00AF6ADB /* ViewController3D.swift */,
+				92F07A03237AA00900897B4D /* ViewController2D.swift */,
+				92F079FF237A8A9100897B4D /* SynthEngine.swift */,
+				92E4BD30233FAD6F00AF6ADB /* Main.storyboard */,
+				92E4BD35233FAD7100AF6ADB /* LaunchScreen.storyboard */,
+				92E4BD38233FAD7100AF6ADB /* Info.plist */,
+				92250781237EFBE600E77565 /* out.wav */,
+				923B9F372345091A0088B677 /* File.metal */,
+				92E4BD33233FAD7100AF6ADB /* Assets.xcassets */,
+				92DA5C63236DCF1300F6F1E6 /* Items.scnassets */,
+			);
+			path = Synth3D;
+			sourceTree = "<group>";
+		};
+		92F07A07237ABEB500897B4D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				92F07A08237ABEC700897B4D /* Technology.ttf */,
+				92F07A05237ABD5500897B4D /* ds-digii.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		935F7D5E546EC5EE006A1D0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26749C9C972583422E510AFF /* Pods-Synth3D.debug.xcconfig */,
+				A5238C5DD9C0182E45D12DDD /* Pods-Synth3D.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92E4BD28233FAD6F00AF6ADB /* Synth3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E4BD3B233FAD7100AF6ADB /* Build configuration list for PBXNativeTarget "Synth3D" */;
+			buildPhases = (
+				03BE11884C2653DB7E2D4AAC /* [CP] Check Pods Manifest.lock */,
+				92E4BD25233FAD6F00AF6ADB /* Sources */,
+				92E4BD26233FAD6F00AF6ADB /* Frameworks */,
+				92E4BD27233FAD6F00AF6ADB /* Resources */,
+				DF92AF8AE51BF36A382D1847 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Synth3D;
+			productName = Synth3D;
+			productReference = 92E4BD29233FAD6F00AF6ADB /* Synth3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92E4BD21233FAD6F00AF6ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mutexre;
+				TargetAttributes = {
+					92E4BD28233FAD6F00AF6ADB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 92E4BD24233FAD6F00AF6ADB /* Build configuration list for PBXProject "Synth3D" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92E4BD20233FAD6F00AF6ADB;
+			productRefGroup = 92E4BD2A233FAD6F00AF6ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92E4BD28233FAD6F00AF6ADB /* Synth3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92E4BD27233FAD6F00AF6ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E4BD37233FAD7100AF6ADB /* LaunchScreen.storyboard in Resources */,
+				92E4BD34233FAD7100AF6ADB /* Assets.xcassets in Resources */,
+				92E4BD32233FAD6F00AF6ADB /* Main.storyboard in Resources */,
+				92250782237EFBE600E77565 /* out.wav in Resources */,
+				92E1A4B4236F48EB00582C2B /* Items.scnassets in Resources */,
+				92F07A06237ABD5500897B4D /* ds-digii.ttf in Resources */,
+				92F07A09237ABEC700897B4D /* Technology.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03BE11884C2653DB7E2D4AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Synth3D-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF92AF8AE51BF36A382D1847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synth3D/Pods-Synth3D-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Synth3D/Pods-Synth3D-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Synth3D/Pods-Synth3D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92E4BD25233FAD6F00AF6ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E4BD2F233FAD6F00AF6ADB /* ViewController3D.swift in Sources */,
+				92F07A04237AA00900897B4D /* ViewController2D.swift in Sources */,
+				92E4BD2D233FAD6F00AF6ADB /* AppDelegate.swift in Sources */,
+				92F07A02237A9E6000897B4D /* SynthModel.swift in Sources */,
+				92F079FE237A6AB400897B4D /* ViewModel.swift in Sources */,
+				923B9F382345091A0088B677 /* File.metal in Sources */,
+				92F07A00237A8A9100897B4D /* SynthEngine.swift in Sources */,
+				92F07A20237E4A1200897B4D /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92E4BD30233FAD6F00AF6ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92E4BD31233FAD6F00AF6ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92E4BD35233FAD7100AF6ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92E4BD36233FAD7100AF6ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92E4BD39233FAD7100AF6ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92E4BD3A233FAD7100AF6ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92E4BD3C233FAD7100AF6ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26749C9C972583422E510AFF /* Pods-Synth3D.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859799LX22;
+				INFOPLIST_FILE = Synth3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mutexre.Synth3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92E4BD3D233FAD7100AF6ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5238C5DD9C0182E45D12DDD /* Pods-Synth3D.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 859799LX22;
+				INFOPLIST_FILE = Synth3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mutexre.Synth3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92E4BD24233FAD6F00AF6ADB /* Build configuration list for PBXProject "Synth3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E4BD39233FAD7100AF6ADB /* Debug */,
+				92E4BD3A233FAD7100AF6ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E4BD3B233FAD7100AF6ADB /* Build configuration list for PBXNativeTarget "Synth3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E4BD3C233FAD7100AF6ADB /* Debug */,
+				92E4BD3D233FAD7100AF6ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92E4BD21233FAD6F00AF6ADB /* Project object */;
+}
